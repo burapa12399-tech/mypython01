@@ -1,6 +1,6 @@
 # คำสั่ง if-else
 
-x = 10
+x = 100
 
 if x <= 100 : #colon อย่าลืม
     print('Hello...')
