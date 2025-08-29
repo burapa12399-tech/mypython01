@@ -6,10 +6,10 @@ print("------------------")
 print("โปรแกรมตรวจสอบปีเกิด")
 print("------------------")
 your_name = input("กรุณาป้อนชื่อของคุณ : ")
-your_yearbirth = input("กรุณาป้อนปีเกิดของคุณ : ")
+your_yearbirth = int(input("กรุณาป้อนปีเกิดของคุณ : "))
 print("------------------")
 
-your_yearbirth = (datetime.now().year+543)  - your_yearbirth
+your_yearbirth = (datetime.now().year+543) - your_yearbirth
 
 if your_yearbirth >= 35:
     print(f"คุณ {your_name} อายุ {your_yearbirth} คุณแก่แล้ว...")
