@@ -7,14 +7,16 @@
 # ============================ 
 # Program Average 5 Number 
 # ============================ 
-# Enter number 1 : <input> 
-# Enter number 2 : <input> 
-# Enter number 3 : <input> 
-# Enter number 4 : <input> 
-# Enter number 5 : <input> 
+num1 = int(input("Enter number 1 : "))
+num2 = int(input("Enter number 2 : "))
+num3 = int(input("Enter number 3 : "))
+num4 = int(input("Enter number 4 : "))
+num5 = int(input("Enter number 5 : "))
+total = num1 + num2 + num3 + num4 + num5
+average = total / 5
 # ============================ 
-# Sum of 5 number is : <output> 
-# Average of 5 number is : <output> 
+print("Sum of 5 number is :", total)
+print("Average of 5 number is :", average) 
 # ============================ 
 # Sum of 5 number is : <output> 
 # Average of 5 number is : <output> 
