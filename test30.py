@@ -1,17 +1,17 @@
 # have parameter no return
 
-def showData_name(param1, param2,....) :
-    คำสั่งที่ 1
-    คำสั่งที่ 2
-    ...
+def showData_name(param1, param2, param3):
+    # ตัวอย่างคำสั่ง
+    print(param1, param2, param3)
 
-def showHi(new_name) :
+def showHi(new_name):
     print(f"Hello", new_name)
 
-def showHey(n1, n2) :
+def showHey(n1, n2):
+    R = n1 + n2
     print(f"ผลบวกของ {n1} และ {n2} คือ {R}")
 
 showHi("Student")
 showHi("Teacher")
-showHey(10,20)
+showHey(10, 20)
 showHi("Admin")
